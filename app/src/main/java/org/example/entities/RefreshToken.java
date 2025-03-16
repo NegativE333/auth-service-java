@@ -13,7 +13,7 @@ import lombok.*;
 @Builder
 @JsonNaming(PropertyNamingStrategy.SnakeCaseStrategy.class)
 @Table(name = "tokens")
-public class RefeshToken {
+public class RefreshToken {
 
   @Id
   @GeneratedValue(strategy = GenerationType.IDENTITY)
